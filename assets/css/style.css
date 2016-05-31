@@ -202,7 +202,7 @@ border-color: #5D5B66;
 .navbar-inverse .navbar-brand {
 	color: #ffffff;
 	font-weight: bolder;
-	font-size: 25px;
+	/*font-size: 25px;*/
     font-weight:900;
 	letter-spacing: 2px;
 }
@@ -211,6 +211,17 @@ border-color: #5D5B66;
 }
 .navbar-inverse .navbar-nav > li > a {
 color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  a.navbar-brand {
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) {
+  a.navbar-brand {
+    font-size: 25px;
+  }
 }
 
 /* ==========================================================================
