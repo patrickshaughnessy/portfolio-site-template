@@ -41,5 +41,11 @@ jQuery(function($) {
     /*==========================================
     WRITE  YOUR  SCRIPTS BELOW
     =====================================================*/
-
+  var intervalID = setInterval(function(){
+    if ($('iframe')[1].style.display.length) {
+      $('iframe')[1].style.display = 'inline-block';
+      clearInterval(intervalID);
+    };
+  }, 300)
+  
 });
