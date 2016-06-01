@@ -46,6 +46,6 @@ jQuery(function($) {
       $('iframe')[1].style.display = 'inline-block';
       clearInterval(intervalID);
     };
-  }, 300)
-  
+  }, 500)
+
 });
